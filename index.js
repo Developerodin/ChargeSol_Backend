@@ -107,7 +107,7 @@ app.use("/api/chargers/",verifyToken,ChargerRouter)
 app.use("/api/stations/",verifyToken,StaionRouter)
 app.use("/api/customers/",verifyToken,CustomersRouter)
 app.use("/api/customers4/",verifyToken,CustomersRouter)
-const PORT=8000;
+const PORT=3000;
 server.listen(PORT,()=>{
     try{
       console.log("listening on port=>",PORT);
